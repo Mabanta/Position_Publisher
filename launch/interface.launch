@@ -1,0 +1,3 @@
+<launch>
+	<node name="test" pkg="position_publisher" type="interface" cwd="node" output="screen" />
+</launch>

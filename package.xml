@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>position_publisher</name>
+  <version>1.0.0</version>
+  <description>Creates an interface and publishes a position based on user input.</description>
+
+  <author email="lynch.matt.m@mgmail.com">Matthew Lynch</author>
+  <maintainer email="lynch.matt.m@gmail.com">Matthew Lynch</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sdl2</build_depend>
+  <build_depend>sdl2_image</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sdl2</run_depend>
+  <run_depend>sdl2_image</run_depend>
+
+</package>

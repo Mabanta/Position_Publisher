@@ -1,0 +1,31 @@
+================================================================================
+=                                    README                                    =
+================================================================================
+
+Functionality
+--------------------------------------------------------------------------------
+The purpose is to provide a method of control for the Pioneer 3DX model.
+
+LEFT CLICK - Selects a location to move the robot over to.
+
+H - Halts the movement of the robot.
+
+O - Outputs the object's current position.
+
+P - Outputs the location hovered over by the mouse.
+
+ESC - Exits the program.
+
+
+
+Starting the application
+--------------------------------------------------------------------------------
+1. Place desired image into the "images" folder within the package.
+
+2. Rename the image "background.png".
+
+3. Change the variables "WINDOW_WIDTH" and "WINDOW_WIDTH" to match the
+	dimensions of the desired image.
+
+2. Run the command:
+	roslaunch position_publisher interface.launch
